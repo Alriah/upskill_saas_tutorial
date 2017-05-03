@@ -50,6 +50,22 @@ h1, h2, h3 {
         color: #FFF;
         opacity: 0.8;
     }
+    &:focus {
+        color: #FFF;
+        opacity: 0.8;
+    }
+}
+
+// Mobile nav
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #F24645;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
 }
 
 // Homepage Styles
